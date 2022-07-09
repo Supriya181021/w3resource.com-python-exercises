@@ -104,6 +104,18 @@ if 6 in my_tuple:
 else:
     print('6 is NOT in', my_tuple)
 
+#solution 2: SupriyaNighute
+
+check_tuple=('a','b','c',1,2,3)
+check_ele=input("Enter the element to check whether exists in tuple: ")
+
+print("Original tuple is: ",check_tuple)
+
+if check_ele in check_tuple:
+    print(check_ele,"is present in tuple.")
+else:
+    print(check_ele,"is not present in tuple.")
+
 """
 11. Write a Python program to convert a list to a tuple.
 """
